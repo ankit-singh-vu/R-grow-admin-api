@@ -1,0 +1,54 @@
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 83%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#loader {
+  left: 540px; position: absolute; top: 150px; height: 26%; z-index: 999999; display:none;
+}
+.blursec {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  pointer-events: none;
+}
+.addbutton {
+  cursor: pointer;
+  float: right;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  border: 0px;
+  height: 25px;
+  font-weight: bold;
+  margin-right: 9%;
+  margin-bottom: -32px;
+  margin-top: 7px;
+}
+.inputFields {
+  /* width: 100%; */
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  /* resize: vertical; */
+}
+.swal-wide{
+  width:300px !important;
+  font-size: 13px !important;
+}
